@@ -1,6 +1,8 @@
 import { Enum, EnumValue } from 'ts-enums'
 import { Chord, MINOR_PATTERN, ROOT_PATTERN } from './Chord';
-import * as XRegExp from 'xregexp';
+import XRegExp from "xregexp";
+
+XRegExp.uninstall('namespacing');
 
 // Chromatic scale starting from C using flats only.
 const FLAT_SCALE = [

@@ -4,7 +4,9 @@
     "moduleResolution": "node",
     "module": "commonjs",
     "outDir": "dist",
-    "declaration": true
+    "declaration": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   },
   "include": [
     "src"

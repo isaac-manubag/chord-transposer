@@ -1,4 +1,6 @@
-import * as XRegExp from "xregexp";
+import XRegExp from "xregexp";
+
+XRegExp.uninstall('namespacing');
 
 /**
  * The rank for each possible chord. Rank is the distance in semitones from C.
